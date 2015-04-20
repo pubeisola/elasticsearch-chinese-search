@@ -1,0 +1,17 @@
+[2015-04-20 16:37:11,616][INFO ][node                     ] [node11] version[1.4.2], pid[17065], build[927caff/2014-12-16T14:11:12Z]
+[2015-04-20 16:37:11,617][INFO ][node                     ] [node11] initializing ...
+[2015-04-20 16:37:12,524][INFO ][plugins                  ] [node11] loaded [analysis-mmseg, analysis-pinyin, mapper-attachments, analysis-smartcn, analysis-ik, analysis-combo, analysis-ansj, jetty, analysis-string2int, analysis-stconvert], sites [bigdesk, head, hq, inquisitor, kopf, oob, paramedic, segmentspy]
+[2015-04-20 16:44:11,976][INFO ][node                     ] [node11] version[1.4.2], pid[17806], build[927caff/2014-12-16T14:11:12Z]
+[2015-04-20 16:44:11,978][INFO ][node                     ] [node11] initializing ...
+[2015-04-20 16:44:12,855][INFO ][plugins                  ] [node11] loaded [analysis-mmseg, analysis-pinyin, mapper-attachments, analysis-smartcn, analysis-ik, analysis-combo, analysis-ansj, jetty, analysis-string2int, analysis-stconvert], sites [bigdesk, head, hq, inquisitor, kopf, oob, paramedic, segmentspy]
+[2015-04-20 16:48:26,813][INFO ][node                     ] [node11] version[1.4.2], pid[18233], build[927caff/2014-12-16T14:11:12Z]
+[2015-04-20 16:48:26,813][INFO ][node                     ] [node11] initializing ...
+[2015-04-20 16:48:26,913][INFO ][plugins                  ] [node11] loaded [analysis-mmseg, analysis-pinyin, mapper-attachments, analysis-ik, analysis-combo, analysis-ansj, jetty, analysis-string2int, analysis-stconvert], sites [bigdesk, head, hq, inquisitor, kopf, oob, paramedic, segmentspy]
+[2015-04-20 16:48:30,510][INFO ][node                     ] [node11] initialized
+[2015-04-20 16:48:30,510][INFO ][node                     ] [node11] starting ...
+[2015-04-20 16:48:30,719][INFO ][transport                ] [node11] bound_address {inet[/0:0:0:0:0:0:0:0:9301]}, publish_address {inet[/192.168.11.105:9301]}
+[2015-04-20 16:48:30,769][INFO ][discovery                ] [node11] cn-out-of-box2/QeCf8pfuRMagOSySjCd-Iw
+[2015-04-20 16:48:34,889][INFO ][cluster.service          ] [node11] new_master [node11][QeCf8pfuRMagOSySjCd-Iw][gaofengdeMacBook-Pro.local][inet[/192.168.11.105:9301]]{master=true}, reason: zen-disco-join (elected_as_master)
+[2015-04-20 16:48:34,913][INFO ][http                     ] [node11] bound_address {inet[/0:0:0:0:0:0:0:0:9201]}, publish_address {inet[/192.168.11.105:9201]}
+[2015-04-20 16:48:34,913][INFO ][node                     ] [node11] started
+[2015-04-20 16:48:34,956][INFO ][gateway                  ] [node11] recovered [0] indices into cluster_state

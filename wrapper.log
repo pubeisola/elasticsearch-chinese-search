@@ -1,0 +1,17 @@
+WARN   | wrapper  | 2015/04/20 16:37:09 | Unable to write to the configured log directory: /Volumes/juan2/search/elasticsearch-cn-out-of-box-master/logs (No such file or directory)
+WARN   | wrapper  | 2015/04/20 16:37:09 |   The directory does not exist.
+WARN   | wrapper  | 2015/04/20 16:37:09 | Unable to write to the configured log file: /Volumes/juan2/search/elasticsearch-cn-out-of-box-master/logs/service.log (No such file or directory)
+WARN   | wrapper  | 2015/04/20 16:37:09 |   Falling back to the default file in the current working directory: wrapper.log
+STATUS | wrapper  | 2015/04/20 16:37:09 | --> Wrapper Started as Console
+STATUS | wrapper  | 2015/04/20 16:37:09 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2015/04/20 16:37:09 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2015/04/20 16:37:09 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2015/04/20 16:37:09 | 
+STATUS | wrapper  | 2015/04/20 16:37:09 | Launching a JVM...
+INFO   | jvm 1    | 2015/04/20 16:37:10 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2015/04/20 16:37:11 | [2015-04-20 16:37:11,616][INFO ][node                     ] [node11] version[1.4.2], pid[17065], build[927caff/2014-12-16T14:11:12Z]
+INFO   | jvm 1    | 2015/04/20 16:37:11 | [2015-04-20 16:37:11,617][INFO ][node                     ] [node11] initializing ...
+INFO   | jvm 1    | 2015/04/20 16:37:12 | [2015-04-20 16:37:12,524][INFO ][plugins                  ] [node11] loaded [analysis-mmseg, analysis-pinyin, mapper-attachments, analysis-smartcn, analysis-ik, analysis-combo, analysis-ansj, jetty, analysis-string2int, analysis-stconvert], sites [bigdesk, head, hq, inquisitor, kopf, oob, paramedic, segmentspy]
+INFO   | jvm 1    | 2015/04/20 16:37:16 | {1.4.2}: Initialization Failed ...
+INFO   | jvm 1    | 2015/04/20 16:37:16 | 1) A binding to org.elasticsearch.indices.analysis.smartcn.SmartChineseIndicesAnalysis was already configured at _unknown_.
+STATUS | wrapper  | 2015/04/20 16:37:18 | <-- Wrapper Stopped

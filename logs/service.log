@@ -1,0 +1,51 @@
+STATUS | wrapper  | 2015/04/20 16:43:20 | --> Wrapper Started as Console
+STATUS | wrapper  | 2015/04/20 16:43:20 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2015/04/20 16:43:20 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2015/04/20 16:43:20 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2015/04/20 16:43:20 | 
+STATUS | wrapper  | 2015/04/20 16:43:20 | Launching a JVM...
+INFO   | jvm 1    | 2015/04/20 16:43:20 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2015/04/20 16:43:22 | WrapperSimpleApp: 
+INFO   | jvm 1    | 2015/04/20 16:43:22 | WrapperSimpleApp Error: Encountered an error running main:
+INFO   | jvm 1    | 2015/04/20 16:43:22 | WrapperSimpleApp Error: java.lang.NoClassDefFoundError: Could not initialize class org.elasticsearch.Version
+INFO   | jvm 1    | 2015/04/20 16:43:22 | WrapperSimpleApp Error: 	at org.elasticsearch.bootstrap.Bootstrap.buildErrorMessage(Bootstrap.java:261)
+INFO   | jvm 1    | 2015/04/20 16:43:22 | WrapperSimpleApp Error: 	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:248)
+INFO   | jvm 1    | 2015/04/20 16:43:22 | WrapperSimpleApp Error: 	at org.elasticsearch.bootstrap.ElasticsearchF.main(ElasticsearchF.java:34)
+INFO   | jvm 1    | 2015/04/20 16:43:22 | WrapperSimpleApp Error: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2015/04/20 16:43:22 | WrapperSimpleApp Error: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+INFO   | jvm 1    | 2015/04/20 16:43:22 | WrapperSimpleApp Error: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2015/04/20 16:43:22 | WrapperSimpleApp Error: 	at java.lang.reflect.Method.invoke(Method.java:606)
+INFO   | jvm 1    | 2015/04/20 16:43:22 | WrapperSimpleApp Error: 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:290)
+INFO   | jvm 1    | 2015/04/20 16:43:22 | WrapperSimpleApp Error: 	at java.lang.Thread.run(Thread.java:745)
+STATUS | wrapper  | 2015/04/20 16:43:24 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/04/20 16:44:10 | --> Wrapper Started as Console
+STATUS | wrapper  | 2015/04/20 16:44:10 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2015/04/20 16:44:10 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2015/04/20 16:44:10 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2015/04/20 16:44:10 | 
+STATUS | wrapper  | 2015/04/20 16:44:10 | Launching a JVM...
+INFO   | jvm 1    | 2015/04/20 16:44:11 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2015/04/20 16:44:12 | [2015-04-20 16:44:11,976][INFO ][node                     ] [node11] version[1.4.2], pid[17806], build[927caff/2014-12-16T14:11:12Z]
+INFO   | jvm 1    | 2015/04/20 16:44:12 | [2015-04-20 16:44:11,978][INFO ][node                     ] [node11] initializing ...
+INFO   | jvm 1    | 2015/04/20 16:44:12 | [2015-04-20 16:44:12,855][INFO ][plugins                  ] [node11] loaded [analysis-mmseg, analysis-pinyin, mapper-attachments, analysis-smartcn, analysis-ik, analysis-combo, analysis-ansj, jetty, analysis-string2int, analysis-stconvert], sites [bigdesk, head, hq, inquisitor, kopf, oob, paramedic, segmentspy]
+INFO   | jvm 1    | 2015/04/20 16:44:16 | {1.4.2}: Initialization Failed ...
+INFO   | jvm 1    | 2015/04/20 16:44:16 | 1) A binding to org.elasticsearch.indices.analysis.smartcn.SmartChineseIndicesAnalysis was already configured at _unknown_.
+STATUS | wrapper  | 2015/04/20 16:44:18 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/04/20 16:48:25 | --> Wrapper Started as Console
+STATUS | wrapper  | 2015/04/20 16:48:25 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2015/04/20 16:48:25 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2015/04/20 16:48:25 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2015/04/20 16:48:25 | 
+STATUS | wrapper  | 2015/04/20 16:48:25 | Launching a JVM...
+INFO   | jvm 1    | 2015/04/20 16:48:25 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2015/04/20 16:48:26 | [2015-04-20 16:48:26,813][INFO ][node                     ] [node11] version[1.4.2], pid[18233], build[927caff/2014-12-16T14:11:12Z]
+INFO   | jvm 1    | 2015/04/20 16:48:26 | [2015-04-20 16:48:26,813][INFO ][node                     ] [node11] initializing ...
+INFO   | jvm 1    | 2015/04/20 16:48:26 | [2015-04-20 16:48:26,913][INFO ][plugins                  ] [node11] loaded [analysis-mmseg, analysis-pinyin, mapper-attachments, analysis-ik, analysis-combo, analysis-ansj, jetty, analysis-string2int, analysis-stconvert], sites [bigdesk, head, hq, inquisitor, kopf, oob, paramedic, segmentspy]
+INFO   | jvm 1    | 2015/04/20 16:48:30 | [2015-04-20 16:48:30,510][INFO ][node                     ] [node11] initialized
+INFO   | jvm 1    | 2015/04/20 16:48:30 | [2015-04-20 16:48:30,510][INFO ][node                     ] [node11] starting ...
+INFO   | jvm 1    | 2015/04/20 16:48:30 | [2015-04-20 16:48:30,719][INFO ][transport                ] [node11] bound_address {inet[/0:0:0:0:0:0:0:0:9301]}, publish_address {inet[/192.168.11.105:9301]}
+INFO   | jvm 1    | 2015/04/20 16:48:30 | [2015-04-20 16:48:30,769][INFO ][discovery                ] [node11] cn-out-of-box2/QeCf8pfuRMagOSySjCd-Iw
+INFO   | jvm 1    | 2015/04/20 16:48:34 | [2015-04-20 16:48:34,889][INFO ][cluster.service          ] [node11] new_master [node11][QeCf8pfuRMagOSySjCd-Iw][gaofengdeMacBook-Pro.local][inet[/192.168.11.105:9301]]{master=true}, reason: zen-disco-join (elected_as_master)
+INFO   | jvm 1    | 2015/04/20 16:48:34 | [2015-04-20 16:48:34,913][INFO ][http                     ] [node11] bound_address {inet[/0:0:0:0:0:0:0:0:9201]}, publish_address {inet[/192.168.11.105:9201]}
+INFO   | jvm 1    | 2015/04/20 16:48:34 | [2015-04-20 16:48:34,913][INFO ][node                     ] [node11] started
+INFO   | jvm 1    | 2015/04/20 16:48:34 | [2015-04-20 16:48:34,956][INFO ][gateway                  ] [node11] recovered [0] indices into cluster_state
